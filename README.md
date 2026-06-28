@@ -44,18 +44,3 @@ Deploy link: [https://shruthisivaraman.github.io/Portfolio/](https://shruthisiva
 └── assets/             # Project illustrations, logos, and workspace layout mockups
 ```
 
----
-
-## 🚀 Local Setup
-
-To run this repository locally:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Shruthisivaraman/Portfolio.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd Portfolio
-   ```
-3. Open `index.html` in your web browser.
