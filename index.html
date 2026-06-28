@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shruthi S M | MERN Full Stack Developer & AI/ML Engineer</title>
+    <meta name="description" content="Portfolio of Shruthi S M — MERN Full Stack Developer, AI/ML Engineer, IBM Intern. Building intelligent full-stack solutions.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ========== HEADER ========== -->
+    <header id="main-header">
+        <div class="header-inner">
+
+            <!-- LEFT: Logo -->
+            <a href="#hero" class="logo-link">
+                <span class="logo-name">SHRUTHI S M</span><span class="logo-accent">.</span>
+            </a>
+
+            <!-- CENTER: Contact Quick-Bar -->
+            <div class="header-contacts">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=shruthisivaraman25@gmail.com" target="_blank" class="hc-item">
+                    <i class="fa-regular fa-envelope"></i>
+                    <span>shruthisivaraman25@gmail.com</span>
+                </a>
+                <span class="hc-divider">|</span>
+                <a href="https://www.linkedin.com/in/shruthi-sivaraman-a86261349" target="_blank" class="hc-item">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <span class="hc-divider">|</span>
+                <a href="https://github.com/Shruthisivaraman" target="_blank" class="hc-item">
+                    <i class="fa-brands fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <span class="hc-divider">|</span>
+                <a href="https://wa.me/919345718701" target="_blank" class="hc-item">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span>+91 9345718701</span>
+                </a>
+            </div>
+
+            <!-- RIGHT: Nav + Theme Toggle -->
+            <div class="header-right">
+                <nav class="main-nav">
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#timeline" class="nav-link">Experience</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#contact" class="nav-cta">Contact</a>
+                </nav>
+                <button id="themeToggle" class="theme-btn" aria-label="Toggle theme">
+                    <i class="fa-solid fa-moon" id="moon-icon"></i>
+                    <i class="fa-solid fa-sun" id="sun-icon" style="display:none;"></i>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Open menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Drawer -->
+        <div class="mobile-drawer" id="mobileDrawer">
+            <nav class="mobile-nav">
+                <a href="#about" class="mob-link">About</a>
+                <a href="#timeline" class="mob-link">Experience</a>
+                <a href="#skills" class="mob-link">Skills</a>
+                <a href="#projects" class="mob-link">Projects</a>
+                <a href="#contact" class="mob-link">Contact</a>
+            </nav>
+            <div class="mob-contacts">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=shruthisivaraman25@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i> shruthisivaraman25@gmail.com</a>
+                <a href="https://wa.me/919345718701" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section id="hero" class="hero-section">
+        <!-- Morphing background blobs -->
+        <div class="hero-bg">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+            <div class="blob blob-3"></div>
+            <div class="hero-grid-overlay"></div>
+        </div>
+
+        <div class="hero-wrap container">
+            <!-- LEFT: Text Content -->
+            <div class="hero-text">
+                <div class="hero-eyebrow">
+                    <span class="eyebrow-dot"></span>
+                    MERN Stack &amp; AI/ML Engineer
+                </div>
+
+                <h1 class="hero-heading">
+                    Building<br>
+                    <span class="heading-highlight">Intelligent</span><br>
+                    Web Solutions
+                </h1>
+
+                <p class="hero-bio">
+                    Specialist in engineering production-ready full-stack web architectures using MongoDB, Express.js, React and Node.js — fused with AI logic for smart, adaptive user experiences.
+                </p>
+
+                <!-- Metrics Dashboard -->
+                <div class="metrics-row">
+                    <div class="metric-pill">
+                        <span class="mpill-val" data-count="8.46" data-dec="2">0</span>
+                        <span class="mpill-lbl">CGPA</span>
+                    </div>
+                    <div class="metric-pill">
+                        <span class="mpill-val" data-count="5" data-dec="0">0</span>
+                        <span class="mpill-lbl">Projects</span>
+                    </div>
+                    <div class="metric-pill">
+                        <span class="mpill-val" data-count="90" data-dec="0">0</span>
+                        <span class="mpill-lbl">Java Gold %</span>
+                    </div>
+                    <div class="metric-pill">
+                        <span class="mpill-val" data-count="1" data-dec="0">0</span>
+                        <span class="mpill-lbl">IBM Internship</span>
+                    </div>
+                </div>
+
+                <!-- CTA Buttons -->
+                <div class="hero-ctas">
+                    <a href="assets/Shruthi_S_M_Resume.pdf" download class="cta-primary">
+                        <i class="fa-solid fa-download"></i> Download Resume
+                    </a>
+                    <a href="#projects" class="cta-secondary">
+                        Explore Work <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- RIGHT: Portrait  -->
+            <div class="hero-portrait-wrap">
+                <div class="portrait-ring">
+                    <div class="portrait-ring-inner">
+                        <img src="assets/shruthi.jpg" alt="Shruthi S M" class="portrait-photo">
+                    </div>
+                </div>
+                <!-- Floating skill chips -->
+                <div class="float-chip chip-react"><i class="fa-brands fa-react"></i> React</div>
+                <div class="float-chip chip-node"><i class="fa-brands fa-node-js"></i> Node.js</div>
+                <div class="float-chip chip-ai"><i class="fa-solid fa-brain"></i> AI / ML</div>
+            </div>
+        </div>
+
+        <!-- Scroll indicator -->
+        <div class="scroll-hint">
+            <span>Scroll to explore</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ========== MARQUEE SKILLS TICKER ========== -->
+    <div class="ticker-wrap" aria-hidden="true">
+        <div class="ticker-track">
+            <span>React.js</span><span class="sep">◆</span>
+            <span>Node.js</span><span class="sep">◆</span>
+            <span>MongoDB</span><span class="sep">◆</span>
+            <span>Express.js</span><span class="sep">◆</span>
+            <span>Java</span><span class="sep">◆</span>
+            <span>REST APIs</span><span class="sep">◆</span>
+            <span>JWT Auth</span><span class="sep">◆</span>
+            <span>AI / ML</span><span class="sep">◆</span>
+            <span>SQL</span><span class="sep">◆</span>
+            <span>HTML5</span><span class="sep">◆</span>
+            <span>CSS3</span><span class="sep">◆</span>
+            <span>Postman</span><span class="sep">◆</span>
+            <span>Git &amp; GitHub</span><span class="sep">◆</span>
+            <!-- Duplicate for seamless loop -->
+            <span>React.js</span><span class="sep">◆</span>
+            <span>Node.js</span><span class="sep">◆</span>
+            <span>MongoDB</span><span class="sep">◆</span>
+            <span>Express.js</span><span class="sep">◆</span>
+            <span>Java</span><span class="sep">◆</span>
+            <span>REST APIs</span><span class="sep">◆</span>
+            <span>JWT Auth</span><span class="sep">◆</span>
+            <span>AI / ML</span><span class="sep">◆</span>
+            <span>SQL</span><span class="sep">◆</span>
+            <span>HTML5</span><span class="sep">◆</span>
+            <span>CSS3</span><span class="sep">◆</span>
+            <span>Postman</span><span class="sep">◆</span>
+            <span>Git &amp; GitHub</span><span class="sep">◆</span>
+        </div>
+    </div>
+
+    <main>
+
+        <!-- ========== ABOUT SECTION (BENTO GRID) ========== -->
+        <section id="about" class="section reveal">
+            <div class="container">
+                <div class="section-label"><span class="label-line"></span>Overview</div>
+                <h2 class="section-title">The Developer Behind the Code</h2>
+
+                <div class="bento-grid bento-grid-simple">
+                    <!-- Big bio card -->
+                    <div class="bento-card bento-bio">
+                        <h3 class="bento-heading">Merging AI with MERN Stack Engineering</h3>
+                        <p>A software engineer specializing in MERN stack development and AI/ML algorithms. Skilled at transforming complex database structures into seamless client-facing interfaces, optimizing RESTful APIs, and embedding intelligent rule-based logic to solve real-world problems.</p>
+                        <p>My project portfolio reflects this fusion — from an <strong>AI-Powered Habit Tracker</strong> using custom heuristics to optimize user productivity, to an <strong>AI Road Accident Prevention System</strong> parsing real-time sensor speeds and triggering collision alerts. Each project is built with production discipline.</p>
+                        <p>Having completed an industry internship at <strong>AdroIt Technology</strong> in partnership with <strong>IBM via Naan Mudhalvan</strong> (Dec 2025 – Feb 2026), I have hands-on experience in Agile workflows, secure API architecture, and MongoDB optimization in collaborative team environments.</p>
+                    </div>
+
+                    <!-- Creative image panel -->
+                    <div class="bento-card bento-img-panel">
+                        <img src="assets/overview-panel.png" alt="Developer workspace" class="overview-img">
+                        <div class="overview-img-overlay">
+                            <span class="oi-badge"><i class="fa-brands fa-react"></i> MERN</span>
+                            <span class="oi-badge"><i class="fa-solid fa-brain"></i> AI / ML</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== EXPERIENCE/EDUCATION SECTION (Neural Network Timeline) ========== -->
+        <section id="timeline" class="section reveal">
+            <div class="container">
+                <div class="section-label"><span class="label-line"></span>My Path</div>
+                <h2 class="section-title">Neural Experience Network</h2>
+                <p class="section-subtitle-text">Click a milestone neuron to fire activation pulses and watch connected skills light up in real time.</p>
+
+                <div class="neural-timeline-container glass-card">
+                    <!-- Left: Interactive Neural Graph -->
+                    <div class="neural-graph-wrapper">
+                        <!-- SVG Connection Paths -->
+                        <svg class="neural-svg" id="neuralSvg" viewBox="0 0 450 300">
+                            <!-- Paths from Edu Node (Y: 60) -->
+                            <path class="neural-path path-edu active" d="M 60,60 Q 200,40 370,50" />
+                            <path class="neural-path path-edu active" d="M 60,60 Q 200,120 370,170" />
+                            <path class="neural-path path-edu active" d="M 60,60 Q 200,180 370,230" />
+                            
+                            <!-- Paths from Intern Node (Y: 150) -->
+                            <path class="neural-path path-intern" d="M 60,150 Q 200,100 370,110" />
+                            <path class="neural-path path-intern" d="M 60,150 Q 200,150 370,170" />
+                            <path class="neural-path path-intern" d="M 60,150 Q 200,200 370,230" />
+                            
+                            <!-- Paths from SIH Node (Y: 240) -->
+                            <path class="neural-path path-sih" d="M 60,240 Q 200,120 370,110" />
+                            <path class="neural-path path-sih" d="M 60,240 Q 200,200 370,230" />
+                            <path class="neural-path path-sih" d="M 60,240 Q 200,260 370,290" />
+                        </svg>
+
+                        <!-- HTML Elements positioned overlaying the SVG coordinates -->
+                        <div class="neural-nodes-layer">
+                            <!-- Input Nodes (Pulsing Milestones) -->
+                            <div class="neuron neuron-input active" data-neuron="edu" style="left: 60px; top: 60px;">
+                                <div class="neuron-core"><i class="fa-solid fa-graduation-cap"></i></div>
+                                <span class="neuron-tag-label">Academics</span>
+                            </div>
+                            <div class="neuron neuron-input" data-neuron="intern" style="left: 60px; top: 150px;">
+                                <div class="neuron-core"><i class="fa-solid fa-briefcase"></i></div>
+                                <span class="neuron-tag-label">IBM Intern</span>
+                            </div>
+                            <div class="neuron neuron-input" data-neuron="sih" style="left: 60px; top: 240px;">
+                                <div class="neuron-core"><i class="fa-solid fa-trophy"></i></div>
+                                <span class="neuron-tag-label">SIH Nominee</span>
+                            </div>
+
+                            <!-- Output Nodes (Highlighted Skills) -->
+                            <div class="neuron neuron-output tag-java active" style="left: 370px; top: 50px;">Java / DBMS</div>
+                            <div class="neuron neuron-output tag-mern" style="left: 370px; top: 110px;">MERN Stack</div>
+                            <div class="neuron neuron-output tag-api active" style="left: 370px; top: 170px;">REST APIs</div>
+                            <div class="neuron neuron-output tag-ai active" style="left: 370px; top: 230px;">AI Coursework</div>
+                            <div class="neuron neuron-output tag-soft" style="left: 370px; top: 290px;">Agile Teamwork</div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Info cards details panel -->
+                    <div class="neural-details-panel">
+                        <!-- Card 1: Education -->
+                        <div class="neural-card active" id="card-edu">
+                            <span class="nc-date"><i class="fa-regular fa-calendar-days"></i> Sept 2023 – 2027</span>
+                            <h3 class="nc-title">B.E. Computer Science (AI &amp; ML)</h3>
+                            <h4 class="nc-org">Meenakshi College of Engineering</h4>
+                            <p class="nc-desc">Intensive academic training centered on advanced computing methodologies, algorithms, and databases. Specialized in AI algorithms and predictive modeling, currently maintaining a strong academic standing of <strong>8.46 CGPA</strong>.</p>
+                            
+                            <div class="nc-sub-title">Key Specialized Coursework</div>
+                            <div class="nc-coursework">
+                                <span><i class="fa-solid fa-brain"></i> NLP</span>
+                                <span><i class="fa-solid fa-eye"></i> Deep Learning</span>
+                                <span><i class="fa-solid fa-network-wired"></i> Neural Networks</span>
+                                <span><i class="fa-solid fa-database"></i> DBMS</span>
+                            </div>
+                        </div>
+
+                        <!-- Card 2: IBM Internship -->
+                        <div class="neural-card" id="card-intern">
+                            <span class="nc-date"><i class="fa-regular fa-calendar-days"></i> Dec 2025 – Feb 2026</span>
+                            <h3 class="nc-title">IBM Full Stack Developer Intern</h3>
+                            <h4 class="nc-org">AdroIt Technology (Naan Mudhalvan Program)</h4>
+                            <p class="nc-desc">Developed industry-standard full stack web solutions. Collaborated with core engineering teams to build, test, and deploy a secure MERN stack payroll automation system.</p>
+                            
+                            <div class="nc-sub-title">Responsibilities &amp; Achievements</div>
+                            <ul class="nc-bullets">
+                                <li>Designed secure RESTful API endpoints for employee profile authentication and salary calculations.</li>
+                                <li>Integrated MongoDB databases with optimal schema relationships, reducing API response delays.</li>
+                                <li>Participated in daily Agile stand-ups, resolving deployment blockages in shared developer environments.</li>
+                                <li>Leveraged Git and GitHub for team version control, reviews, and pull requests.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Card 3: SIH nominee -->
+                        <div class="neural-card" id="card-sih">
+                            <span class="nc-date"><i class="fa-regular fa-calendar-days"></i> SIH 2025</span>
+                            <h3 class="nc-title">Smart India Hackathon nominee</h3>
+                            <h4 class="nc-org">National Level Hackathon</h4>
+                            <p class="nc-desc">Recognized for technical excellence and selected at the college level to compete in the national-level Smart India Hackathon. Led backend development to tackle critical national problem statements.</p>
+                            
+                            <div class="nc-sub-title">Key Highlights</div>
+                            <ul class="nc-bullets">
+                                <li>Collaborated in a fast-paced 6-member team to construct, pitch, and prototype a software solution.</li>
+                                <li>Developed rapid MERN backends with authentication flows within critical hackathon timeframes.</li>
+                                <li>Co-authored documentation mapping architectural plans and deployment pathways.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== SKILLS SECTION (Hexagonal Honeycomb Hive) ========== -->
+        <section id="skills" class="section reveal">
+            <div class="container">
+                <div class="section-label"><span class="label-line"></span>Expertise</div>
+                <h2 class="section-title">Technical Skill Hive</h2>
+                <p class="section-subtitle-text">Explore the interactive honeycomb grid. Hover over any hexagonal cell to activate its neural node.</p>
+
+                <div class="skills-honeycomb-wrapper">
+                    <div class="honeycomb-grid">
+                        <!-- Row 1 -->
+                        <div class="hex-row">
+                            <div class="hex-cell cat-lang" data-desc="Java: Strong OOP foundations, server-side design, and algorithm development.">
+                                <div class="hex-inner">
+                                    <i class="fa-brands fa-java"></i>
+                                    <span>Java</span>
+                                </div>
+                            </div>
+                            <div class="hex-cell cat-lang" data-desc="JavaScript: ES6+ modern scripts, asynchronous control, and API interaction.">
+                                <div class="hex-inner">
+                                    <i class="fa-brands fa-js"></i>
+                                    <span>JS ES6+</span>
+                                </div>
+                            </div>
+                            <div class="hex-cell cat-lang" data-desc="HTML5: Semantic DOM structuring, accessibility compliance, and SEO structures.">
+                                <div class="hex-inner">
+                                    <i class="fa-brands fa-html5"></i>
+                                    <span>HTML5</span>
+                                </div>
+                            </div>
+                            <div class="hex-cell cat-lang" data-desc="CSS3: Fluid responsive grids, custom variables, and modern keyframe animations.">
+                                <div class="hex-inner">
+                                    <i class="fa-brands fa-css3-alt"></i>
+                                    <span>CSS3</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Row 2 -->
+                        <div class="hex-row offset-row">
+                            <div class="hex-cell cat-full" data-desc="React.js: Declarative component architectures, state hooks, and virtual DOM renders.">
+                                <div class="hex-inner">
+                                    <i class="fa-brands fa-react"></i>
+                                    <span>React.js</span>
+                                </div>
+                            </div>
+                            <div class="hex-cell cat-full" data-desc="Node.js: Event-driven server frameworks, HTTP routers, and filesystem APIs.">
+                                <div class="hex-inner">
+                                    <i class="fa-brands fa-node-js"></i>
+                                    <span>Node.js</span>
+                                </div>
+                            </div>
+                            <div class="hex-cell cat-full" data-desc="Express.js: Lightweight REST routers, error handlers, and pipeline middlewares.">
+                                <div class="hex-inner">
+                                    <i class="fa-solid fa-server"></i>
+                                    <span>Express</span>
+                                </div>
+                            </div>
+                            <div class="hex-cell cat-full" data-desc="MongoDB: Document store databases, flexible schemas, and aggregation pipelines.">
+                                <div class="hex-inner">
+                                    <i class="fa-solid fa-leaf"></i>
+                                    <span>MongoDB</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Row 3 -->
+                        <div class="hex-row">
+                            <div class="hex-cell cat-full" data-desc="MySQL / SQL: Relational schemas, indexing strategies, and optimized queries.">
+                                <div class="hex-inner">
+                                    <i class="fa-solid fa-database"></i>
+                                    <span>SQL</span>
+                                </div>
+                            </div>
+                            <div class="hex-cell cat-full" data-desc="REST API: HTTP protocols, endpoint authentication, and JSON responses.">
+                                <div class="hex-inner">
+                                    <i class="fa-solid fa-plug"></i>
+                                    <span>REST API</span>
+                                </div>
+                            </div>
+                            <div class="hex-cell cat-tools" data-desc="Git &amp; GitHub: Distributed version control, branches, and team PR reviews.">
+                                <div class="hex-inner">
+                                    <i class="fa-brands fa-git-alt"></i>
+                                    <span>Git / GitH</span>
+                                </div>
+                            </div>
+                            <div class="hex-cell cat-tools" data-desc="Postman: HTTP client test suites, request variables, and workspace collections.">
+                                <div class="hex-inner">
+                                    <i class="fa-solid fa-paper-plane"></i>
+                                    <span>Postman</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Row 4 -->
+                        <div class="hex-row offset-row">
+                            <div class="hex-cell cat-tools" data-desc="VS Code: Micro-tailored editor environments, debuggers, and code formatting.">
+                                <div class="hex-inner">
+                                    <i class="fa-solid fa-code"></i>
+                                    <span>VS Code</span>
+                                </div>
+                            </div>
+                            <div class="hex-cell cat-tools" data-desc="JWT Authentication: Stateless user sessions, JSON Web Token signatures, and guards.">
+                                <div class="hex-inner">
+                                    <i class="fa-solid fa-shield-halved"></i>
+                                    <span>JWT Auth</span>
+                                </div>
+                            </div>
+                            <div class="hex-cell cat-tools" data-desc="Bcrypt: Cryptographic password salting, hashing algorithms, and secure matching.">
+                                <div class="hex-inner">
+                                    <i class="fa-solid fa-lock"></i>
+                                    <span>Bcrypt</span>
+                                </div>
+                            </div>
+                            <div class="hex-cell cat-style" data-desc="Agile / Scrum: Iterative development sprints, backlog updates, and daily stands.">
+                                <div class="hex-inner">
+                                    <i class="fa-solid fa-arrows-spin"></i>
+                                    <span>Agile</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Row 5 -->
+                        <div class="hex-row">
+                            <div class="hex-cell cat-style" data-desc="Team Collaboration: Shared project repositories, review feedback, and engineering alignment.">
+                                <div class="hex-inner">
+                                    <i class="fa-solid fa-handshake"></i>
+                                    <span>Teamwork</span>
+                                </div>
+                            </div>
+                            <div class="hex-cell cat-style" data-desc="Leadership: Motivating technical teams, defining project targets, and managing sprints.">
+                                <div class="hex-inner">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>Leadership</span>
+                                </div>
+                            </div>
+                            <div class="hex-cell cat-style" data-desc="Communication: Technical presentations, standup summaries, and team dialogue.">
+                                <div class="hex-inner">
+                                    <i class="fa-solid fa-comments"></i>
+                                    <span>Talk</span>
+                                </div>
+                            </div>
+                            <div class="hex-cell cat-style" data-desc="Technical Writing &amp; Documentation: Code markdown files, APIs, and design path logs.">
+                                <div class="hex-inner">
+                                    <i class="fa-solid fa-book"></i>
+                                    <span>Docs</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Interactive Status Console Display below Honeycomb -->
+                    <div class="honeycomb-console-display">
+                        <div class="hc-console-icon"><i class="fa-solid fa-terminal"></i></div>
+                        <div class="hc-console-text">Hover over any node in the hive matrix above to initialize telemetry description...</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- ========== PROJECTS SECTION ========== -->
+        <section id="projects" class="section projects-sticky-section">
+            <div class="container">
+                <div class="section-label"><span class="label-line"></span>My Work</div>
+                <h2 class="section-title">Featured Projects</h2>
+                
+                <div class="sticky-reveal-container">
+                    <!-- Left: Sticky visual side -->
+                    <div class="sticky-visual-side">
+                        <div class="sticky-visual-frame">
+                            <div class="project-visual active" data-visual="ibm-payroll">
+                                <img src="assets/project5.png" alt="IBM Payroll">
+                                <div class="pf-img-overlay"><span>View Details</span></div>
+                            </div>
+                            <div class="project-visual" data-visual="aqua-pure">
+                                <img src="assets/project1.png" alt="Aqua Pure">
+                                <div class="pf-img-overlay"><span>View Details</span></div>
+                            </div>
+                            <div class="project-visual" data-visual="habit-tracker">
+                                <img src="assets/project2.png" alt="AI Habit Tracker">
+                                <div class="pf-img-overlay"><span>View Details</span></div>
+                            </div>
+                            <div class="project-visual" data-visual="accident">
+                                <img src="assets/project3.png" alt="Accident Prevention">
+                                <div class="pf-img-overlay"><span>View Details</span></div>
+                            </div>
+                            <div class="project-visual" data-visual="grocery">
+                                <img src="assets/project4.png" alt="Grocery Frontend">
+                                <div class="pf-img-overlay"><span>View Details</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Right: Scrollable details side -->
+                    <div class="scrollable-details-side">
+                        <!-- Project 1: IBM Payroll -->
+                        <div class="project-scroll-card glass-card" data-proj="ibm-payroll">
+                            <span class="proj-category"><i class="fa-solid fa-briefcase"></i> IBM Internship · Dec 2025 – Feb 2026</span>
+                            <h3 class="proj-title">Payroll Management System</h3>
+                            <p class="proj-summary">Enterprise payroll automation built during IBM internship at AdroIt Technology. Handles employee records, salary calculations, deductions, and role-based JWT authentication.</p>
+                            <div class="proj-tags">
+                                <span><i class="fa-brands fa-react"></i> React</span>
+                                <span><i class="fa-brands fa-node-js"></i> Node.js</span>
+                                <span><i class="fa-solid fa-leaf"></i> MongoDB</span>
+                                <span><i class="fa-solid fa-shield-halved"></i> JWT Auth</span>
+                            </div>
+                            <div class="proj-actions">
+                                <a href="https://github.com/Shruthisivaraman/Payroll-authentication-organization-setup" target="_blank" class="proj-btn"><i class="fa-brands fa-github"></i> Code</a>
+                                <button class="proj-btn proj-btn-outline detail-trigger" data-proj="ibm-payroll">Details <i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                        
+                        <!-- Project 2: Aqua Pure -->
+                        <div class="project-scroll-card glass-card" data-proj="aqua-pure">
+                            <span class="proj-category"><i class="fa-solid fa-layer-group"></i> MERN Stack · Business</span>
+                            <h3 class="proj-title">Aqua Pure Business Website</h3>
+                            <p class="proj-summary">Full MERN platform for a water purification business showcasing their work, services, client review ratings, product gallery, and automated enquiry collection.</p>
+                            <div class="proj-tags">
+                                <span><i class="fa-brands fa-react"></i> React</span>
+                                <span><i class="fa-brands fa-node-js"></i> Node.js</span>
+                                <span><i class="fa-solid fa-leaf"></i> MongoDB</span>
+                                <span><i class="fa-solid fa-server"></i> Express</span>
+                            </div>
+                            <div class="proj-actions">
+                                <a href="https://github.com/Shruthisivaraman/aqua-pure-system-business-website" target="_blank" class="proj-btn"><i class="fa-brands fa-github"></i> Code</a>
+                                <button class="proj-btn proj-btn-outline detail-trigger" data-proj="aqua-pure">Details <i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                        
+                        <!-- Project 3: AI Habit Tracker -->
+                        <div class="project-scroll-card glass-card" data-proj="habit-tracker">
+                            <span class="proj-category"><i class="fa-solid fa-brain"></i> AI + MERN</span>
+                            <h3 class="proj-title">AI-Powered Habit Tracker</h3>
+                            <p class="proj-summary">Productivity dashboard with JWT-secured authentication and a rule-based AI engine that dynamically recalibrates goals based on user stress levels and sleep logs.</p>
+                            <div class="proj-tags">
+                                <span><i class="fa-brands fa-react"></i> React</span>
+                                <span><i class="fa-solid fa-shield-halved"></i> JWT</span>
+                                <span><i class="fa-solid fa-leaf"></i> MongoDB</span>
+                                <span><i class="fa-solid fa-robot"></i> Heuristics</span>
+                            </div>
+                            <div class="proj-actions">
+                                <a href="https://github.com/Shruthisivaraman/HABIT-TRACKERAI" target="_blank" class="proj-btn"><i class="fa-brands fa-github"></i> Code</a>
+                                <button class="proj-btn proj-btn-outline detail-trigger" data-proj="habit-tracker">Details <i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                        
+                        <!-- Project 4: Accident Prevention -->
+                        <div class="project-scroll-card glass-card" data-proj="accident">
+                            <span class="proj-category"><i class="fa-solid fa-shield-halved"></i> AI Safety System</span>
+                            <h3 class="proj-title">Road Accident Prevention System</h3>
+                            <p class="proj-summary">Real-time speed monitoring and collision prevention alert dashboard. Monitors sensor speed limits and triggers multi-modal alerts when safety zones are breached.</p>
+                            <div class="proj-tags">
+                                <span><i class="fa-brands fa-node-js"></i> Node.js</span>
+                                <span><i class="fa-solid fa-leaf"></i> MongoDB</span>
+                                <span><i class="fa-solid fa-bell"></i> Real-time alerts</span>
+                                <span><i class="fa-solid fa-microchip"></i> AI Logic</span>
+                            </div>
+                            <div class="proj-actions">
+                                <a href="https://github.com/Shruthisivaraman/AI-Road-Accident-Prevention-System" target="_blank" class="proj-btn"><i class="fa-brands fa-github"></i> Code</a>
+                                <button class="proj-btn proj-btn-outline detail-trigger" data-proj="accident">Details <i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                        
+                        <!-- Project 5: Grocery Store -->
+                        <div class="project-scroll-card glass-card" data-proj="grocery">
+                            <span class="proj-category"><i class="fa-solid fa-laptop-code"></i> Frontend Engineering</span>
+                            <h3 class="proj-title">Grocery Store Frontend</h3>
+                            <p class="proj-summary">Zero-dependency, high-performance grocery e-commerce UI with category filters, dynamic item grids, and a slide-in animated cart panel.</p>
+                            <div class="proj-tags">
+                                <span><i class="fa-brands fa-html5"></i> HTML5</span>
+                                <span><i class="fa-brands fa-css3-alt"></i> CSS Grid</span>
+                                <span><i class="fa-brands fa-js"></i> JavaScript</span>
+                                <span><i class="fa-solid fa-mobile-screen"></i> Mobile UI</span>
+                            </div>
+                            <div class="proj-actions">
+                                <a href="https://github.com/Shruthisivaraman/Grocery-website---Frontend" target="_blank" class="proj-btn"><i class="fa-brands fa-github"></i> Code</a>
+                                <button class="proj-btn proj-btn-outline detail-trigger" data-proj="grocery">Details <i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== CERTIFICATES SECTION (Glass Medal Display Case) ========== -->
+        <section id="certs" class="section reveal">
+            <div class="container">
+                <div class="section-label"><span class="label-line"></span>Validation</div>
+                <h2 class="section-title">Certificates &amp; Milestones</h2>
+                <p class="section-subtitle-text">Click an achievement medal in the display cabinet to inspect verified telemetry credentials.</p>
+
+                <div class="medal-showcase-cabinet glass-card">
+                    <!-- Cabinet Medals Row -->
+                    <div class="cabinet-medals-row">
+                        <!-- Medal 1: NPTEL -->
+                        <div class="medal-node active" data-medal="nptel">
+                            <div class="medal-pedestal"></div>
+                            <div class="medal-orb gold-glow">
+                                <div class="medal-hologram"><i class="fa-solid fa-award"></i></div>
+                                <div class="medal-ring"></div>
+                            </div>
+                            <span class="medal-label">NPTEL Java</span>
+                        </div>
+
+                        <!-- Medal 2: Infosys -->
+                        <div class="medal-node" data-medal="infosys">
+                            <div class="medal-pedestal"></div>
+                            <div class="medal-orb purple-glow">
+                                <div class="medal-hologram"><i class="fa-solid fa-shield-halved"></i></div>
+                                <div class="medal-ring"></div>
+                            </div>
+                            <span class="medal-label">Infosys Springboard</span>
+                        </div>
+
+                        <!-- Medal 3: Novitech -->
+                        <div class="medal-node" data-medal="novitech">
+                            <div class="medal-pedestal"></div>
+                            <div class="medal-orb teal-glow">
+                                <div class="medal-hologram"><i class="fa-solid fa-microchip"></i></div>
+                                <div class="medal-ring"></div>
+                            </div>
+                            <span class="medal-label">Novitech MERN</span>
+                        </div>
+
+                        <!-- Medal 4: DOS Club -->
+                        <div class="medal-node" data-medal="dos">
+                            <div class="medal-pedestal"></div>
+                            <div class="medal-orb gold-glow">
+                                <div class="medal-hologram"><i class="fa-solid fa-star"></i></div>
+                                <div class="medal-ring"></div>
+                            </div>
+                            <span class="medal-label">DOS Club Elite</span>
+                        </div>
+                    </div>
+
+                    <!-- Medal Details Viewer Box -->
+                    <div class="medal-details-viewer">
+                        <div class="viewer-laser-line"></div>
+                        
+                        <!-- Details Panel: NPTEL -->
+                        <div class="medal-desc-panel active" id="desc-nptel">
+                            <div class="desc-header">
+                                <i class="fa-solid fa-medal desc-icon gold-text"></i>
+                                <div>
+                                    <h3>Programming in Java — NPTEL</h3>
+                                    <span class="desc-badge gold-badge"><i class="fa-solid fa-trophy"></i> Elite + Gold Category (90%)</span>
+                                </div>
+                            </div>
+                            <p class="desc-text">Ranked in the top national percentile of NPTEL's programming certifications. Validated proficiency in object-oriented logic, multi-threading, socket connections, and database management system drivers in Java.</p>
+                        </div>
+
+                        <!-- Details Panel: Infosys -->
+                        <div class="medal-desc-panel" id="desc-infosys">
+                            <div class="desc-header">
+                                <i class="fa-solid fa-shield-halved desc-icon purple-text"></i>
+                                <div>
+                                    <h3>Spring REST &amp; Spring 5 — Infosys Springboard</h3>
+                                    <span class="desc-badge purple-badge"><i class="fa-solid fa-server"></i> API Architect Frameworks</span>
+                                </div>
+                            </div>
+                            <p class="desc-text">Professional credentials validating advanced Spring Boot development capabilities. Focuses on REST controllers, dependency injections, data mappings, Spring security guards, and server pipelines.</p>
+                        </div>
+
+                        <!-- Details Panel: Novitech -->
+                        <div class="medal-desc-panel" id="desc-novitech">
+                            <div class="desc-header">
+                                <i class="fa-solid fa-certificate desc-icon teal-text"></i>
+                                <div>
+                                    <h3>Full-Stack MERN — Novitech</h3>
+                                    <span class="desc-badge teal-badge"><i class="fa-solid fa-code-branch"></i> Full-Stack Engineer Credentials</span>
+                                </div>
+                            </div>
+                            <p class="desc-text">Comprehensive hands-on training validating expertise in full-stack architecture. Covered component state lifecycles in React, API servers in Node/Express, and schema models in MongoDB.</p>
+                        </div>
+
+                        <!-- Details Panel: DOS Club -->
+                        <div class="medal-desc-panel" id="desc-dos">
+                            <div class="desc-header">
+                                <i class="fa-solid fa-circle-check desc-icon gold-text"></i>
+                                <div>
+                                    <h3>DOS Club Membership — Touchmark Descience</h3>
+                                    <span class="desc-badge gold-badge"><i class="fa-solid fa-user-group"></i> Selected Top 40 Engineers</span>
+                                </div>
+                            </div>
+                            <p class="desc-text">Selected by Touchmark Descience Pvt. Ltd. as one of the top 40 engineering students. Recognized for leadership traits, software prototyping aptitude, and commitment to active technical development.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== CONTACT SECTION ========== -->
+        <section id="contact" class="section reveal">
+            <div class="container">
+                <div class="section-label"><span class="label-line"></span>Let's Connect</div>
+                <h2 class="section-title">Get In Touch</h2>
+
+                <div class="contact-wrap">
+                    <!-- Interactive 3D Business Card Scene -->
+                    <div class="card-scene">
+                        <div class="virtual-business-card glass-card" id="bizCard">
+                            <!-- Card Glow Aura -->
+                            <div class="card-glow"></div>
+                            
+                            <!-- Card Top Bar -->
+                            <div class="card-top-bar">
+                                <span class="card-chip"><i class="fa-solid fa-microchip"></i></span>
+                                <span class="card-tech-badge">MERN + AI/ML</span>
+                            </div>
+                            
+                            <!-- Card Contents -->
+                            <div class="card-main">
+                                <h3 class="card-name">Shruthi S M</h3>
+                                <p class="card-title">Full-Stack &amp; AI/ML Engineer</p>
+                                
+                                <div class="card-fields">
+                                    <div class="card-field">
+                                        <i class="fa-regular fa-envelope"></i>
+                                        <span>shruthisivaraman25@gmail.com</span>
+                                    </div>
+                                    <div class="card-field">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                        <span>+91 9345718701</span>
+                                    </div>
+                                    <div class="card-field">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <span>Chennai, Tamil Nadu, India</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Card Actions -->
+                            <div class="card-actions-row">
+                                <button class="card-copy-btn" id="copyCardDetails" aria-label="Copy contact details">
+                                    <i class="fa-regular fa-copy"></i> <span>Copy Details</span>
+                                </button>
+                                <div class="card-social-quick">
+                                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=shruthisivaraman25@gmail.com" target="_blank" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                                    <a href="https://wa.me/919345718701" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                                    <a href="https://www.linkedin.com/in/shruthi-sivaraman-a86261349" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    <a href="https://github.com/Shruthisivaraman" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form glass-card" id="contactForm">
+                        <div class="field-row">
+                            <div class="field-group">
+                                <label for="fname">Name</label>
+                                <input type="text" id="fname" placeholder="Your name" required>
+                            </div>
+                            <div class="field-group">
+                                <label for="femail">Email</label>
+                                <input type="email" id="femail" placeholder="your@email.com" required>
+                            </div>
+                        </div>
+                        <div class="field-group">
+                            <label for="fsubject">Subject</label>
+                            <input type="text" id="fsubject" placeholder="Internship Opportunity" required>
+                        </div>
+                        <div class="field-group">
+                            <label for="fmsg">Message</label>
+                            <textarea id="fmsg" rows="5" placeholder="Hi Shruthi, I came across your portfolio..." required></textarea>
+                        </div>
+                        <button type="submit" class="cta-primary form-submit">
+                            Send Message <i class="fa-regular fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="main-footer">
+        <div class="container footer-inner">
+            <p class="footer-copy">&copy; 2026 <strong>Shruthi S M</strong>. Built with passion in Chennai.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/Shruthisivaraman" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/shruthi-sivaraman-a86261349" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://wa.me/919345718701" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=shruthisivaraman25@gmail.com" target="_blank" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========== BACK TO TOP BUTTON ========== -->
+    <a href="#hero" id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <!-- ========== PROJECT MODAL ========== -->
+    <div id="projModal" class="modal-overlay" role="dialog" aria-hidden="true">
+        <div class="modal-box glass-card">
+            <button class="modal-close" id="modalClose"><i class="fa-solid fa-xmark"></i></button>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // Replace with your actual EmailJS Public Key once you sign up at emailjs.com
+            // If left as default, contactForm submit will fallback gracefully to Gmail draft redirect.
+            emailjs.init({
+                publicKey: "YOUR_PUBLIC_KEY"
+            });
+        })();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
